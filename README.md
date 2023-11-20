@@ -25,7 +25,7 @@
 
 ---
 
-# Legacy PithuuOS 👻
+# Legacy PithuuOS 
 ## Released in Late 2020.
 
 Visit & Try out Legacy PithuuOS from [here](https://sites.google.com/view/pithuuos)
