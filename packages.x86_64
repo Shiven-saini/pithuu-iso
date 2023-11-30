@@ -1,3 +1,7 @@
+## Default Arch-pages
+# All are important and crucial, but after an initial successful build,
+# I will get rid of unnecessary ones.
+
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -127,3 +131,19 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+##############################
+## PithuuOS Custom packages ##
+##############################
+
+## Official repo packages
+
+# FOSS GPU Drivers (Intel/AMD/VM)
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-vesa
+xf86-video-fbdev
+
+
+
