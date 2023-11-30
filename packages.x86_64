@@ -145,5 +145,13 @@ xf86-video-ati
 xf86-video-vesa
 xf86-video-fbdev
 
-
+# Audio servers and drivers
+alsa-utils
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
+pulseaudio-jack
+pulseaudio-zeroconf
+qemu-audio-pa
+pavucontrol
 
