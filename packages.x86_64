@@ -155,3 +155,7 @@ pulseaudio-zeroconf
 qemu-audio-pa
 pavucontrol
 
+# Bluetooth & utilities
+bluez
+bluez-utils
+blueman
