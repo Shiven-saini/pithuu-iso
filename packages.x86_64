@@ -167,6 +167,10 @@ x264
 xvidcore
 gstreamer
 ffmpeg
+gst-libav
+gst-plugins-ugly
+gst-plugins-bad
+gst-plugins-good
 
 # Bluetooth & utilities
 bluez
