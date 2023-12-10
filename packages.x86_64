@@ -155,7 +155,22 @@ pulseaudio-zeroconf
 qemu-audio-pa
 pavucontrol
 
+# Videos, encoder & decoders
+libdv
+libde265
+libmpeg2
+libvpx
+libtheora
+schroedinger
+x265
+x264
+xvidcore
+gstreamer
+ffmpeg
+
 # Bluetooth & utilities
 bluez
 bluez-utils
 blueman
+
+
