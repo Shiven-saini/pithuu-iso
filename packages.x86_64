@@ -177,4 +177,18 @@ bluez
 bluez-utils
 blueman
 
+# Fonts
+adobe-source-code-pro-fonts
+adobe-source-sans-fonts
+adobe-source-serif-fonts
+
+noto-fonts
+noto-fonts-emoji
+noto-fonts-extra
+noto-fonts-cjk
+#pithuu-repo/ttf-ms-fonts
+ttf-liberation
+
+ttf-jetbrains-mono-nerd
+ttf-fira-code
 
