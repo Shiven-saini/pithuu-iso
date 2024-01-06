@@ -192,3 +192,6 @@ ttf-liberation
 ttf-jetbrains-mono-nerd
 ttf-fira-code
 
+# Pithuu-repo packages
+pithuu-repo/filesystem
+
