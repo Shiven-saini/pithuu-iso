@@ -7,6 +7,7 @@ Be a part of the community : <br/>
 [![](https://img.shields.io/discord/1177236605115842580?style=for-the-badge&logo=Discord&logoColor=FFFFFF&label=PithuuOS%20Server)](https://discord.gg/uTyyMuQh)
 
 PithuuOS - Custom packages & repository is hosted [here](https://github.com/shiven-saini/pithuu-repo)
+PithuuOS - Installer, build upon calamares framework is being developed at repository over [here](https://github.com/Shiven-saini/pithuu-installer)
 
 # Core-features ⚡
 
