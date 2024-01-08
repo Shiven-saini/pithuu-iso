@@ -4,10 +4,13 @@
 > Introducing a linux distro, which unleashes the power of your system that prioritizes the latest version of toolkits, memory efficiency, and an unparalleled developer-centric experience.
 
 Be a part of the community : <br/>
-[![](https://img.shields.io/discord/1177236605115842580?style=for-the-badge&logo=Discord&logoColor=FFFFFF&label=PithuuOS%20Server)](https://discord.gg/uTyyMuQh)
+[![](https://img.shields.io/discord/1177236605115842580?style=for-the-badge&logo=Discord&logoColor=FFFFFF&label=PithuuOS%20Server)](https://discord.gg/KFwxDN2W)
 
-PithuuOS - Custom packages & repository is hosted [here](https://github.com/shiven-saini/pithuu-repo)
-PithuuOS - Installer, build upon calamares framework is being developed at repository over [here](https://github.com/Shiven-saini/pithuu-installer)
+# Related or Sibling Repositories
+### PithuuOS - Custom packages & repository is hosted [here](https://github.com/shiven-saini/pithuu-repo)
+
+### PithuuOS - Installer, build upon calamares framework is being developed at repository over [here](https://github.com/Shiven-saini/pithuu-installer)
+----
 
 # Core-features ⚡
 
