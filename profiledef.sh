@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
+#  TODO : Remove livecd-sound and installation_guide
 
 iso_name="PithuuOS"
 iso_label="PithuuOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
