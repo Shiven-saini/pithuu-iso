@@ -1,0 +1,13 @@
+root:x:0:root
+liveuser:x:1000:liveuser
+wheel:x:10:liveuser
+uucp:x:14:liveuser
+adm:x:4:liveuser
+system:x:3:bin,liveuser
+rfkill:x:983:liveuser
+uucp:x:14:liveuser
+network:x:90:liveuser
+storage:x:988:liveuser
+audio:x:995:liveuser
+video:x:986:liveuser
+nopasswdlogin:x:966:liveuser
