@@ -186,12 +186,13 @@ noto-fonts
 noto-fonts-emoji
 noto-fonts-extra
 noto-fonts-cjk
-#pithuu-repo/ttf-ms-fonts
+pithuu-repo/ttf-ms-fonts
 ttf-liberation
 
 ttf-jetbrains-mono-nerd
 ttf-fira-code
 
-# Pithuu-repo packages
+## Pithuu-repo packages ##
 pithuu-repo/filesystem
-
+pithuu-repo/lsb-release
+pithuu-repo/neofetch
