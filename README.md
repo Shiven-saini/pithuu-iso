@@ -1,7 +1,17 @@
+<div align="center">
+  <img src=https://raw.githubusercontent.com/shiven-saini/pithuu-iso/main/res/logo.svg width="300">
+  <h1>Pithuu OS</h1>
+</div>
 
-# PithuuOS
+<div align="center">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/shiven-saini/pithuu-iso?style=flat-square&logo=github">
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/shiven-saini/pithuu-iso?style=flat-square&logo=github">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/shiven-saini/pithuu-iso?style=flat-square&logo=github">
+</div>
 
-> Introducing a linux distro, which unleashes the power of your system that prioritizes the latest version of toolkits, memory efficiency, and an unparalleled developer-centric experience.
+</br>
+
+> Introducing a linux distro, which unleashes the power of your system by prioritizing the latest version of toolkits, memory efficiency, and an unparalleled developer-centric experience.
 
 Be a part of the community : <br/>
 [![](https://img.shields.io/discord/1177236605115842580?style=for-the-badge&logo=Discord&logoColor=FFFFFF&label=PithuuOS%20Server)](https://discord.gg/KFwxDN2W)
