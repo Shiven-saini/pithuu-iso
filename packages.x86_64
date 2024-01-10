@@ -172,6 +172,9 @@ gst-plugins-ugly
 gst-plugins-bad
 gst-plugins-good
 
+# User Directories
+xdg-user-dirs-gtk
+
 # Bluetooth & utilities
 bluez
 bluez-utils
@@ -186,7 +189,7 @@ noto-fonts
 noto-fonts-emoji
 noto-fonts-extra
 noto-fonts-cjk
-pithuu-repo/ttf-ms-fonts
+#pithuu-repo/ttf-ms-fonts
 ttf-liberation
 
 ttf-jetbrains-mono-nerd
