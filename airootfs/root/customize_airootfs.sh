@@ -7,6 +7,7 @@ set -e -used -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
 locale-gen
 
 #########
+# TODO-2 :
 # To copy the dot files and themes to /etc/skel folder.
 # I will rather implement a prepare script file, that will do the task of copying latest mirrorlist
 # and gtk-4.0 and gnome-shell theme.
@@ -22,6 +23,23 @@ runuser -l liveuser -c 'xdg-user-dirs-gtk-update'
 xdg-user-dirs-update
 xdg-user-dirs-gtk-update
 
+# Setting GruvBox as the default theme
+
+## GTK-3.0 and legacy gtk apps
+gsettings set org.gnome.desktop.interface gtk-theme "Gruvbox"
+
+## Icons set to papirus
+gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
+
+## Gtk-4.0 symlinks
+mkdir -p ~/.config
+ln -s ~/.themes/Gruvbox/gtk-4.0 ~/.config/
+
+## Shell theme
+gsettings set org.gnome.shell.extensions.user-theme name "Gruvbox"
+
+## To enable login manager
+systemctl enable gdm
 
 # Enable pacman-init service to update the pacman databases and populate keyrings.
 systemctl enable pacman-init.service
