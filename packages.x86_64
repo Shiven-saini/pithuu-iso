@@ -1,6 +1,8 @@
-## Default Arch-pages
+## Default Arch-packages ##
 # All are important and crucial, but after an initial successful build,
 # I will get rid of unnecessary ones.
+
+### TODO : Remove bloat packages that might not be used in day to day context. ###
 
 alsa-utils
 amd-ucode
@@ -200,3 +202,45 @@ ttf-fira-code
 pithuu-repo/filesystem
 pithuu-repo/lsb-release
 pithuu-repo/neofetch
+
+#######################################
+## Gnome group (minimal package list)##
+#######################################
+
+baobab
+evince
+loupe
+nautilus
+tracker3-miners
+xdg-desktop-portal-gnome
+gdm
+gnome-calculator
+gnome-characters
+gnome-color-manager
+gnome-connections
+gnome-control-center
+gnome-disk-utility
+gnome-font-viewer
+gnome-keyring
+gnome-logs
+gnome-menus
+gnome-remote-desktop
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-shell-extensions
+#gnome-system-monitor
+gnome-text-editor
+
+# virtual filesystems for GIO
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+
+# Gnome Core apps
+gnome-console
+
+# Misc. apps and tools
+mpv
