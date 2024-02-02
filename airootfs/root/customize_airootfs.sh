@@ -38,6 +38,11 @@ ln -s ~/.themes/Gruvbox/gtk-4.0 ~/.config/
 ## Shell theme
 gsettings set org.gnome.shell.extensions.user-theme name "Gruvbox"
 
+## Set Default font to overpass
+gsettings set org.gnome.desktop.interface font-name "Overpass Regular 12"
+gsettings set org.gnome.desktop.interface document-font-name "Overpass SemiBold 11"
+gsettings set org.gnome.desktop.interface font "Overpass Regular 12"
+
 ## To enable login manager
 systemctl enable gdm
 
