@@ -233,6 +233,8 @@ gnome-shell
 gnome-shell-extensions
 #gnome-system-monitor
 gnome-text-editor
+gtk-engine-murrine
+gnome-themes-extra
 
 # virtual filesystems for GIO
 gvfs
