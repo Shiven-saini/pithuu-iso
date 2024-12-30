@@ -4,6 +4,9 @@ systemctl enable gdm.service
 
 systemctl set-default graphical.target
 
+# Rebuild font cache
+fc-cache -fv
+
 # Set "Inter 11" as the default interface font
 gsettings set org.gnome.desktop.interface font-name "Inter 11"
 
