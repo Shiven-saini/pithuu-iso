@@ -139,4 +139,10 @@ xorg-xwayland
 xf86-video-intel
 xf86-video-amdgpu
 gnome
+gnome-tweaks
 gdm
+
+# font
+inter-font
+cantarell-fonts
+adobe-source-code-pro-fonts
