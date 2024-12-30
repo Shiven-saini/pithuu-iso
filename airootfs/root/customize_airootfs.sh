@@ -4,6 +4,8 @@ systemctl enable gdm.service
 
 systemctl set-default graphical.target
 
+systemctl enable NetworkManager.service
+
 # Rebuild font cache
 fc-cache -fv
 
