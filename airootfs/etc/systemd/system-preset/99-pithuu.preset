@@ -1,1 +1,2 @@
 enable gdm.service
+set-default graphical.target
