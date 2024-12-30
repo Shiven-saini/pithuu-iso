@@ -134,5 +134,9 @@ xl2tpd
 ## Desktop Environment Specific ##
 # Wayland -> Experimental
 xorg
+xorg-server
+xorg-xwayland
+xf86-video-intel
+xf86-video-amdgpu
 gnome
 gdm
