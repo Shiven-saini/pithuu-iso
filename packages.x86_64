@@ -134,6 +134,5 @@ xl2tpd
 ## Desktop Environment Specific ##
 # Wayland -> Experimental
 wayland
-xorg-Wayland
 gnome
 gdm
