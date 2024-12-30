@@ -126,6 +126,14 @@ wvdial
 xfsprogs
 xl2tpd
 
-# Default DE 
+############################
+# PithuuOS Specific Config #
+############################
+
+
+## Desktop Environment Specific ##
+# Wayland -> Experimental
+wayland
+xorg-Wayland
 gnome
 gdm
