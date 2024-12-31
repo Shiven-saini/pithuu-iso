@@ -183,3 +183,6 @@ vlc
 inter-font
 cantarell-fonts
 adobe-source-code-pro-fonts
+
+# Icon Pack
+papirus-icon-theme
