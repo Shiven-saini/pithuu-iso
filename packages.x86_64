@@ -184,3 +184,11 @@ papirus-icon-theme
 
 # Shell configuration
 pithuu-repo/oh-my-posh-bin
+
+# Toolkits
+base-devel
+gcc
+clang
+python
+python-pip
+jdk-openjdk-21
