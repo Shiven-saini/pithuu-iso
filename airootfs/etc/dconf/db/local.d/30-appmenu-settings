@@ -1,0 +1,5 @@
+[org/gnome/desktop/wm/preferences]
+action-right-click-titlebar='menu'
+auto-raise=true
+button-layout='appmenu:minimize,maximize,close'
+focus-mode='click'
