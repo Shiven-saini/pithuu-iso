@@ -171,9 +171,12 @@ gvfs-mtp
 loupe
 
 ## Other essentials
+curl
+aria2
+ffmpeg
+wget
 mpv
 firefox
-vlc
 
 # font
 inter-font
@@ -189,6 +192,11 @@ pithuu-repo/oh-my-posh-bin
 base-devel
 gcc
 clang
+make
+cmake
+ninja
+meson
+
 python
 python-pip
 jdk-openjdk-21
