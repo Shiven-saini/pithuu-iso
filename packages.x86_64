@@ -164,15 +164,11 @@ gnome-shell-extensions
 gnome-system-monitor
 gnome-text-editor
 gnome-tour
+gnome-tweaks
 
 gvfs
 gvfs-mtp
 loupe
-
-
-gnome-tweaks
-gdm
-
 
 ## Other essentials
 mpv
@@ -181,8 +177,10 @@ vlc
 
 # font
 inter-font
-cantarell-fonts
-adobe-source-code-pro-fonts
+ttf-martian-mono-nerd
 
 # Icon Pack
 papirus-icon-theme
+
+# Shell configuration
+pithuu-repo/oh-my-posh-bin
