@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=https://raw.githubusercontent.com/shiven-saini/pithuu-iso/main/res/logo.png width="300">
+  <img src=https://raw.githubusercontent.com/Shiven-saini/pithuu-iso/kratos/res/logo.png width="300">
   <h1>Pithuu OS - Kratos</h1>
 </div>
 
