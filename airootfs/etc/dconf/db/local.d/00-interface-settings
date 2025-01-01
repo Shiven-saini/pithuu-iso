@@ -1,0 +1,5 @@
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+font-name='Inter 11'
+icon-theme='Papirus-Dark'
+show-battery-percentage=true
