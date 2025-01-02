@@ -1,0 +1,64 @@
+#!/bin/bash 
+# Credit : EOS Team
+# Author: Shiven Saini <shiven.career@proton.me>
+
+Lsb_release() {
+    local file=/etc/lsb-release
+
+    if [ -z "$(grep "^DISTRIB_CODENAME=" $file)" ] ; then
+        echo "DISTRIB_CODENAME=${quote}kratos${quote}" >> $file
+    fi
+    sed -i $file \
+        -e "s|^DISTRIB_ID=.*|DISTRIB_ID=${quote}Pithuu${quote}|" \
+        -e "s|^DISTRIB_CODENAME=.*|DISTRIB_CODENAME=${quote}kratos${quote}|" \
+        -e "s|^DISTRIB_DESCRIPTION=.*|DISTRIB_DESCRIPTION=${quote}Pithuu OS${quote}|" \
+        -e "s|^DISTRIB_RELEASE=\"\(.*\)\"|DISTRIB_RELEASE=${quote}\1${quote}|"
+}
+
+Os_release() {
+    local file=/usr/lib/os-release
+    local home=https://shiven.one/pithuu
+    local doc=https://shiven.one/pithuu
+    local support=https://github.com/shiven-saini/pithuu-iso
+    local bugs=https://github.com/shiven-saini/pithuu-iso
+    local privacy=https://shiven.one/pithuu
+
+    sed -i $file \
+        -e "s|^NAME=.*|NAME=${quote}Pithuu OS${quote}|" \
+        -e "s|^PRETTY_NAME=.*|PRETTY_NAME=${quote}Pithuu OS - Kratos${quote}|" \
+        -e "s|^HOME_URL=.*|HOME_URL=${quote}$home${quote}|" \
+        -e "s|^DOCUMENTATION_URL=.*|DOCUMENTATION_URL=${quote}$doc${quote}|" \
+        -e "s|^SUPPORT_URL=.*|SUPPORT_URL=${quote}$support${quote}|" \
+        -e "s|^BUG_REPORT_URL=.*|BUG_REPORT_URL=${quote}$bugs${quote}|" \
+        -e "s|^LOGO=.*|LOGO=${quote}pithuu-logo${quote}|" \
+        -e "s|^ID=.*|ID=${quote}pithuu${quote}|" \
+        -e "s|^ID_LIKE=.*|ID_LIKE=${quote}arch${quote}|" \
+        -e "s|^PRIVACY_POLICY_URL=.*|PRIVACY_POLICY_URL=${quote}$privacy${quote}|" \
+
+    # to add ID_LIKE for compatibility reasons
+    if [ -z "$(grep "^ID_LIKE=" $file)" ] && [ -n "$(grep "^ID=" $file)" ] ; then
+        sed -i $file -e "/^ID=/a \ID_LIKE=${quote}arch${quote}"
+    fi
+}
+
+Issues() {
+    sed -i 's|Arch|Pithuu OS|g' /etc/issue /usr/share/factory/etc/issue
+}
+
+Main()
+{
+    local hookname="$1"
+    local quote="'"
+    quote='\"'
+
+    case "$hookname" in
+        os-release)  Os_release ;;
+        lsb-release) Lsb_release ;;
+        "")          Os_release
+                     Lsb_release
+                     Issues
+                     ;;
+    esac
+}
+
+Main "$@"
