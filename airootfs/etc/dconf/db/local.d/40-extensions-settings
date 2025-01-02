@@ -1,2 +1,34 @@
 [org/gnome/shell]
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'runcat@kolesnikov.se', 'dash-to-dock@micxgx.gmail.com', 'clipboard-history@alexsaveau.dev', 'runandroidemulators@mateusz1913.dev']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Console.desktop', 'firefox.desktop', 'code.desktop', 'com.github.johnfactotum.Foliate.desktop', 'virtualbox.desktop', 'jetbrains-toolbox.desktop', 'devtoys.desktop', 'postman.desktop']
+
+[org/gnome/shell/extensions/user-theme]
+name='Pithuu-Dark'
+
+[org/gnome/shell/extensions/runcat]
+displaying-items='character-and-percentage'
+idle-threshold=10
+
+[org/gnome/shell/extensions/dash-to-dock]
+apply-custom-theme=true
+background-opacity=1.0
+custom-theme-shrink=true
+dash-max-icon-size=48
+dock-position='BOTTOM'
+height-fraction=0.90000000000000002
+isolate-locations=false
+multi-monitor=true
+preferred-monitor=-2
+preferred-monitor-by-connector='DP-2'
+preview-size-scale=0.0
+scroll-action='cycle-windows'
+show-apps-always-in-the-edge=false
+show-apps-at-top=true
+show-show-apps-button=true
+transparency-mode='DEFAULT'
+
+[org/gnome/shell/extensions/clipboard-history]
+ignore-password-mimes=false
+private-mode=false
+toggle-menu=['<Super>v']
+toggle-private-mode=['<Shift><Control>p']
