@@ -190,13 +190,23 @@ pithuu-repo/oh-my-posh-bin
 
 # Toolkits
 base-devel
+git-lfs
 gcc
 clang
 make
 cmake
 ninja
 meson
-
 python
 python-pip
-jdk-openjdk-21
+jdk21-openjdk
+
+# Programming tools
+pithuu-repo/visual-studio-code-bin
+pithuu-repo/devtoys-bin
+pithuu-repo/postman-bin
+virtualbox
+nginx-mainline
+
+# Misc. tools
+foliate
