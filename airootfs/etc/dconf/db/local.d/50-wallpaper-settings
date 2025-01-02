@@ -1,0 +1,7 @@
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/4010.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/4010.jpg'
+primary-color='#000000'
+secondary-color='#FFFFFF'
