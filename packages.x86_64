@@ -204,7 +204,7 @@ jdk21-openjdk
 pithuu-repo/visual-studio-code-bin
 pithuu-repo/devtoys-bin
 pithuu-repo/postman-bin
-virtualbox
+pithuu-repo/jetbrains-toolbox
 nginx-mainline
 
 # Misc. tools
