@@ -1,6 +1,6 @@
 [org/gnome/shell]
 enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'runcat@kolesnikov.se', 'dash-to-dock@micxgx.gmail.com', 'clipboard-history@alexsaveau.dev']
-favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Console.desktop', 'firefox.desktop', 'code.desktop', 'com.github.johnfactotum.Foliate.desktop', 'virtualbox.desktop', 'jetbrains-toolbox.desktop', 'devtoys.desktop', 'postman.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Console.desktop', 'firefox.desktop', 'code.desktop', 'com.github.johnfactotum.Foliate.desktop', 'jetbrains-toolbox.desktop', 'devtoys.desktop', 'postman.desktop']
 
 [org/gnome/shell/extensions/user-theme]
 name='Pithuu-Dark'
