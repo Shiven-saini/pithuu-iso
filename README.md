@@ -16,13 +16,14 @@
 Be a part of the community : <br/>
 [![](https://img.shields.io/discord/1177236605115842580?style=for-the-badge&logo=Discord&logoColor=FFFFFF&label=PithuuOS%20Server)](https://discord.gg/wz9pKweD)
 
-# Related or Sibling Repositories
-### PithuuOS - Custom packages & repository is hosted [here](https://github.com/shiven-saini/pithuu-repo)
+## Sibling Repositories
 
-### PithuuOS - Installer, build upon calamares framework is being developed at repository over [here](https://github.com/Shiven-saini/pithuu-installer)
+PithuuOS - Custom packages & repository is hosted [here](https://github.com/shiven-saini/pithuu-repo). </br>
+PithuuOS - Installer, build upon calamares framework is being developed at repository over [here](https://github.com/Shiven-saini/pithuu-installer).
+
 ----
 
-# Core-features ⚡
+## Core-features ⚡
 
 - **Rolling release model 🔥 :**  You get access to all the latest version of packages fresher than ever.
 - **Minimalist appearance 🤩 :** Focus on visual appearance, so you can focus on what matters!
@@ -31,6 +32,6 @@ Be a part of the community : <br/>
 - **FOSS 🐧 :** Powered by Linux kernel, it's completely free and will always be.
 
 ---
-# Stay tuned for all the exciting upcoming changes and updates!
+**Stay tuned for all the exciting upcoming changes and updates!**
 
 
