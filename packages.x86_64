@@ -15,7 +15,6 @@ b43-fwcutter
 bcachefs-tools
 bind
 bolt
-brltty
 btrfs-progs
 cloud-init
 cryptsetup
@@ -30,7 +29,6 @@ dosfstools
 e2fsprogs
 edk2-shell
 efibootmgr
-espeakup
 ethtool
 exfatprogs
 f2fs-tools
@@ -52,26 +50,17 @@ less
 lftp
 libfido2
 libusb-compat
-linux-atm
 linux-firmware
-linux-firmware-marvell
-livecd-sounds
 lsscsi
 lvm2
-lynx
 man-db
 man-pages
 mdadm
-memtest86+
-memtest86+-efi
 mkinitcpio-archiso
-mkinitcpio-nfs-utils
 modemmanager
 mtools
 nano
-nbd
 ndisc6
-nfs-utils
 nilfs-utils
 nmap
 ntfs-3g
@@ -201,10 +190,10 @@ python-pip
 jdk21-openjdk
 
 # Programming tools
-pithuu-repo/visual-studio-code-bin
-pithuu-repo/devtoys-bin
-pithuu-repo/postman-bin
-pithuu-repo/jetbrains-toolbox
+#pithuu-repo/visual-studio-code-bin
+#pithuu-repo/devtoys-bin
+#pithuu-repo/postman-bin
+#pithuu-repo/jetbrains-toolbox
 nginx-mainline
 
 # Misc. tools
