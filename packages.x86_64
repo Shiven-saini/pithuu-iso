@@ -174,7 +174,7 @@ ttf-martian-mono-nerd
 papirus-icon-theme
 
 # Shell configuration
-pithuu-repo/oh-my-posh-bin
+pithuu/oh-my-posh-bin
 
 # Toolkits
 base-devel
@@ -190,15 +190,13 @@ python-pip
 jdk21-openjdk
 
 # Programming tools
-pithuu-repo/visual-studio-code-bin
-pithuu-repo/devtoys-bin
-pithuu-repo/postman-bin
-pithuu-repo/pithuu-installer
+pithuu/visual-studio-code-bin
+pithuu/devtoys-bin
+pithuu/postman-bin
+pithuu/pithuu-installer
 nginx-mainline
 
 # Misc. tools
 foliate
 
-## commands
-efibootmgr
 os-prober
