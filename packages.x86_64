@@ -190,11 +190,15 @@ python-pip
 jdk21-openjdk
 
 # Programming tools
-#pithuu-repo/visual-studio-code-bin
-#pithuu-repo/devtoys-bin
-#pithuu-repo/postman-bin
-#pithuu-repo/jetbrains-toolbox
+pithuu-repo/visual-studio-code-bin
+pithuu-repo/devtoys-bin
+pithuu-repo/postman-bin
+pithuu-repo/pithuu-installer
 nginx-mainline
 
 # Misc. tools
 foliate
+
+## commands
+efibootmgr
+os-prober
