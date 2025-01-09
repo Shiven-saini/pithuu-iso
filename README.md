@@ -1,6 +1,6 @@
 <div align="center">
   <img src=https://raw.githubusercontent.com/Shiven-saini/pithuu-iso/kratos/res/logo.png width="300">
-  <h1>Pithuu OS - Kratos</h1>
+  <h1>Pithuu OS</h1>
 </div>
 
 <div align="center">
