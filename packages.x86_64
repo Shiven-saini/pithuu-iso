@@ -12,13 +12,13 @@ network-manager-applet
 
 alsa-utils
 b43-fwcutter
-bcachefs-tools
+
 bind
 bolt
 btrfs-progs
-cloud-init
-cryptsetup
-darkhttpd
+
+
+
 ddrescue
 dhclient
 diffutils
@@ -27,28 +27,28 @@ dmraid
 dnsmasq
 dosfstools
 e2fsprogs
-edk2-shell
+
 efibootmgr
 ethtool
 exfatprogs
-f2fs-tools
+
 fatresize
-foot-terminfo
+
 fsarchiver
 gpart
-gpm
+
 gptfdisk
 grub
 hdparm
-hyperv
-irssi
+
+
 iw
 iwd
-jfsutils
+
 ldns
 less
 lftp
-libfido2
+
 libusb-compat
 linux-firmware
 lsscsi
@@ -57,30 +57,30 @@ man-db
 man-pages
 mdadm
 mkinitcpio-archiso
-modemmanager
+
 mtools
 nano
 ndisc6
-nilfs-utils
+
 nmap
 ntfs-3g
 nvme-cli
 open-iscsi
 open-vm-tools
-openconnect
+
 openpgp-card-tools
 openssh
-openvpn
+
 partclone
 parted
 pcsclite
 pv
 qemu-guest-agent
-refind
+
 reflector
 rp-pppoe
 rsync
-screen
+
 sdparm
 sequoia-sq
 sg3_utils
@@ -98,13 +98,13 @@ usbmuxd
 usbutils
 vim
 virtualbox-guest-utils-nox
-vpnc
+
 wireless-regdb
 wireless_tools
 wpa_supplicant
-wvdial
-xfsprogs
-xl2tpd
+
+
+
 
 ############################
 # PithuuOS Specific Config #
@@ -113,20 +113,23 @@ xl2tpd
 
 ## Desktop Environment Specific ##
 # Wayland -> Experimental
-xorg
-xorg-server
+wayland
+libinput
 xorg-xwayland
 mesa
-xf86-video-intel
-xf86-video-amdgpu
-xf86-video-nouveau
+
+# hardware acceleration
+vulkan-intel
+vulkan-radeon
+vulkan-nouveau
+vulkan-tools
 
 gnome-shell
+mutter
 gdm
 gnome-control-center
 gnome-settings-daemon
 xdg-user-dirs-gtk
-mutter
 gtk-engine-murrine
 
 gnome-console
@@ -193,10 +196,10 @@ jdk21-openjdk
 pithuu/visual-studio-code-bin
 pithuu/devtoys-bin
 pithuu/postman-bin
+pithuu/jetbrains-toolbox
 pithuu/pithuu-installer
 nginx-mainline
 
 # Misc. tools
 foliate
-
 os-prober
