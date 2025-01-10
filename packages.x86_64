@@ -122,7 +122,6 @@ mesa
 nvidia
 nvidia-utils
 nvidia-settings
-lib32-nvidia-utils
 
 # hardware acceleration
 vulkan-intel
