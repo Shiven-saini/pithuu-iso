@@ -3,6 +3,7 @@
 systemctl enable gdm.service
 systemctl set-default graphical.target
 systemctl enable NetworkManager.service
+systemctl enable bluetooth
 
 # Copying back the default files
 echo "Restoring /etc/lsb-release..."
