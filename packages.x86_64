@@ -118,10 +118,15 @@ libinput
 xorg-xwayland
 mesa
 
+# Proprietary NVIDIA Drivers
+nvidia
+nvidia-utils
+nvidia-settings
+lib32-nvidia-utils
+
 # hardware acceleration
 vulkan-intel
 vulkan-radeon
-vulkan-nouveau
 vulkan-tools
 
 gnome-shell
@@ -197,7 +202,7 @@ pithuu/visual-studio-code-bin
 pithuu/devtoys-bin
 pithuu/postman-bin
 pithuu/jetbrains-toolbox
-pithuu/pithuu-installer
+pithuu/pithuu-installer-nvidia
 nginx-mainline
 
 # Misc. tools
